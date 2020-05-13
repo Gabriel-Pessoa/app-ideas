@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador de Border-Radius</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body>
+    <div id="content">
+        <h1>Visualizador de Border Radius</h1>
+        <div id="grid">
+            <input type="text" placeholder="0" id="c1" value="0" maxlength="3" pattern="([0-9]{3})">
+            <input type="text" placeholder="0" id="c2" value="0" maxlength="3" pattern="([0-9]{3})">
+            <input type="text" placeholder="0" id="c3" value="0" maxlength="3" pattern="([0-9]{3})">
+            <input type="text" placeholder="0" id="c4" value="0" maxlength="3" pattern="([0-9]{3})">
+            <div border-radius>Border-Radius</div>
+            <input type="text" placeholder="0" id="c5" value="0" maxlength="3" pattern="([0-9]{3})">
+            <input type="text" placeholder="0" id="c6" value="0" maxlength="3" pattern="([0-9]{3})">
+            <input type="text" placeholder="0" id="c7" value="0" maxlength="3" pattern="([0-9]{3})">
+            <input type="text" placeholder="0" id="c8" value="0" maxlength="3" pattern="([0-9]{3})">
+        </div>
+        <div class="buttons">
+            <button reset>Reset</button>
+            <!-- <button result>Result</button> -->
+        </div>
+        <div area-transfer>
+            <input copy-area type="text" placeholder="Transfer Area">
+            <button button-copy>Copy text</button>
+        </div>
+    </div>
+    <script src="./src/script.js"></script>
+</body>
+
+</html>
